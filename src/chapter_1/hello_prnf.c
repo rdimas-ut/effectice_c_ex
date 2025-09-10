@@ -8,7 +8,7 @@
 // <stdlib.h> is where EXIT_SUCCESS macro is defined
 
 // An improvement over the regular hello world
-// Handles the return of puts
+// Handles the return of printf
 int main(void) {
   
   if(printf("%s/n", "Hellow, World!") < 0) {

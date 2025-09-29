@@ -24,4 +24,4 @@ fi
 # Remove build directory
 rm -rf "$BUILD_DIR"
 
-echo "✅ Build complete. Executable are in $OUR_DIR/"
+echo "✅ Build complete. Executable are in $OUT_DIR/"

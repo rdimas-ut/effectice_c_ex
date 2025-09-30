@@ -10,9 +10,7 @@ file(GLOB CHAPTER_SRC_DIRS "${SRC_DIR}/*")
 # Create an executable for each file
 foreach(SRC_DIR ${CHAPTER_SRC_DIRS})
   file(GLOB CHAPTER_SRC "${SRC_DIR}/*.c")
-  message("This is the directory: ${SRC_DIR}")
   foreach(SRC_FILE ${CHAPTER_SRC})
-    message("This is the file: ${SRC_FILE}")
     # Get the filename without extension
     get_filename_component(PROJ_NAME ${SRC_FILE} NAME_WE)
 
